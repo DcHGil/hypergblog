@@ -1,0 +1,4 @@
+Renombre la rama principal de github "main" por "master" para poder segir el tutorial de github este me indico que si tengo un clon local, puede actualizarlo ejecutando: 
+git branch -m main master 
+git fetch origin 
+git branch -u origin / master master
