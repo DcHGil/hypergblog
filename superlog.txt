@@ -2,6 +2,7 @@ Este es el comando que me pasaron para crear el super log
 y ver la historia de los commit graficamente
 
 git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+<<<<<<< HEAD
 
 En esta seccion agrego lo que me falto de los tags
 
@@ -14,3 +15,5 @@ Borrar un tag en el repositorio local: git tag -d nombre-del-tag.
 Listar los tags de nuestro repositorio local: git tag o git show-ref --tags.
 Publicar un tag en el repositorio remoto: git push origin --tags.
 Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
+=======
+>>>>>>> e679ab73f7019eec55956029fe92e3faf08fe2ae
