@@ -1,4 +1,12 @@
+c24 manejo de ramas
 Renombre la rama principal de github "main" por "master" para poder segir el tutorial de github este me indico que si tengo un clon local, puede actualizarlo ejecutando: 
 git branch -m main master 
 git fetch origin 
 git branch -u origin / master master
+
+Manejo de ramas en GitHub
+Puedes trabajar con ramas que nunca envías a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo importante es que aprendas a manejarlas para trabajar profesionalmente.
+
+Crear una rama en el repositorio local: git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama.
+Publicar una rama local al repositorio remoto: git push origin nombre-de-la-rama.
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git usando el comando gitk.
